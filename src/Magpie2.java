@@ -70,7 +70,13 @@ public class Magpie2 {
         } else if (whichResponse == 3) {
             response = "You don't say.";
         }
-
+        else if (whichResponse == 4) {
+            response = "That's cool.";
+        }
+        else if (whichResponse == 5)
+        {
+            response = "Awesome!";
+        }
         return response;
     }
 }
